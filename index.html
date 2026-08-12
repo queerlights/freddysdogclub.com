@@ -520,7 +520,7 @@
   }
   footer strong { color: var(--fuchsia); }
 
-  @media (max-width: 900px) {
+ @media (max-width: 900px) {
     nav { padding: 16px 24px; }
     nav ul { display: none; }
     .about-inner { grid-template-columns: 1fr; gap: 50px; }
@@ -529,12 +529,12 @@
     .service-row { grid-template-columns: 60px 1fr; }
     .service-tag { display: none; }
     .gallery-masonry { columns: 2; }
-  }
-  @media (max-width: 480px) {
+    .gallery-overlay { opacity: 1; }
+  }  @media (max-width: 480px) {
     .tarifs-grid { grid-template-columns: 1fr; gap: 1px; }
     .gallery-masonry { columns: 1; }
     .about-img-badge { display: none; }
-  }
+   .gallery-overlay { opacity: 1; }) :  }
 </style>
 </head>
 <body>
